@@ -1,4 +1,5 @@
-# Primeros-pasos-con-linux-y-GitHub
+# Primeros pasos con linux y GitHub
+
 ### ls 
 Da información del contenido del directorio actual. 
 ### cd Data
