@@ -9,7 +9,7 @@ Vuelve al directorio anterior
 Nos dice el directorio actual
 ### git 
 Nos da información acerca del uso del github
-### git clone https://github.com/iht/master-data-science-vi-ed.git
+### git clone https://github.com/AtasarVega/master-data-science.git
 Para clonar nuestro trabajo de github en la consola
 ### kwrite .gitconfig
 Abre el editor de texto para poner nuestro usuario del github 
