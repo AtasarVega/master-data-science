@@ -74,7 +74,9 @@ crea el archivo first_file.txt
 copia el archivo y le cambia el nombre a second_file.txt
 ### cp -r ata ata2
 copia el directorio y le cambia el nombre a ata2
-
+### mv ata ata2
+Mueve el directorio de ata a ata2. En este caso no lo mueve, solo le cambia el nombre. 
+### 
 
 
 
