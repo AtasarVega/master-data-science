@@ -12,7 +12,7 @@ for name in sheets.keys()
     result.append(this_sheet)
 whole_df = pd.concat(result)
 whole_df.sample(3)
------------------------------------------------------------------------------------------------------
+
 años=[]
 atropellos = []
 distrito = []
@@ -25,7 +25,7 @@ for i in whole_df['DISTRITO_ACCIDENTE']:
 for i in range(21):
     atropellos.append(whole_df['ATROPELLO                               '].loc[i])
     atropellados = np.array(atropellos)
-----------------------------------------------------------------------------------------------------------
+
 for i in range(21):
     plt.plot(años,atropellados[i],label=distrito[i])
     plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
@@ -35,7 +35,7 @@ plt.show()
 # Todos los atropellos por distrito en una misma gráfica, en el eje 'x' los años 2009-2016 
 # y en el eje 'y' el número de atropellos
 
---------------------------------------------------------------------------------------------------------------
+
 for i in range(21):
     plt.plot(años,atropellados[i],label=distrito[i])
     plt.legend()
